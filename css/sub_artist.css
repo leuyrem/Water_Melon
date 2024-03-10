@@ -1,0 +1,4010 @@
+@charset "utf-8";
+
+@media (min-width: 1600px) {
+
+
+/* HOME */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainhome {
+    position: relative;
+}
+
+.mainbg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainbg img {
+    position: absolute;
+    top: -115%;
+    /* width: 100%;
+    top: -38%; */
+}
+
+.topbar {
+    width: 180px;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.topbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.topbar li {
+    padding-top: 5%;
+    text-align: left;
+    text-indent: 70px;
+}
+
+
+.topbar li a {
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-size: var(--size-xs);
+    color: var(--white);
+
+}
+
+.topbar li a:hover {
+    color: var(--point);
+}
+
+.artistlogo {
+    width: 60%;
+    height: 80px;
+    position: absolute;
+    top: 580px;
+    left: 30%;
+}
+
+.artistlogo img {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+
+/* ABOUT */
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.debut {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.debut p {
+    font-size: 7rem;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-weight: bold;
+}
+
+.explain {
+    width: 65%;
+    height: 150px;
+    text-align: center;
+}
+
+.explain p {
+    font-size: 3.5rem;
+}
+
+.aboutphoto {
+    width: 100%;
+}
+
+.aboutphoto img {
+    width: 100%;
+}
+
+/* MEMBERS */
+#members {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.membersboard {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.innerbox {
+    width: 800px;
+    height: 90%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile1 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile2 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile3 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph1:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph1 img {
+    width: 100%;
+}
+
+.ph2 {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ph2 img {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.ph3 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph3:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph3 img {
+    width: 100%;
+}
+
+.ph4 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph4:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph4 img {
+    width: 100%;
+}
+
+.ph5 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph5:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph5 img {
+    width: 100%;
+}
+
+.ph6 {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ph6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ph7 {
+    width: 400px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ph7 img {
+    width: 100%;
+}
+
+.ph8 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph8:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph8 img {
+    width: 100%;
+}
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_logo {
+    width: 300px;
+    height: 50px;
+}
+
+.le_logo img {
+    width: 100%;
+
+}
+
+.membersinfo {
+    width: 300px;
+    height: 700px;
+    text-align: center;
+}
+
+.membersname {
+    padding-top: 50px;
+    font-size: var(--size-s);
+
+}
+
+.membersname ul {
+    padding: 5%;
+}
+
+.manme {
+    font-weight: bold;
+}
+
+.type {
+    padding-top: 0px;
+    font-size: var(--size-s);
+}
+
+.type ul {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* GALLERY */
+#gallery {
+    width: 100%;
+    height: 100vh;
+}
+
+.galleryboard {
+    width: 800px;
+    height: 99%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.ginner1 {
+    width: 800px;
+    height: 31%;
+}
+
+.ginner2 {
+    width: 800px;
+    height: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept2 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept3 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept4 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.outbox1 {
+    width: 100%;
+    height: 270px;
+}
+
+.outbox1-1 {
+    width: 100%;
+    height: 320px;
+}
+
+.outbox2 {
+    width: 100%;
+    height: 190px;
+}
+
+.outbox2-1 {
+    width: 100%;
+    height: 450px;
+}
+
+.outbox3 {
+    width: 100%;
+    height: 320px;
+
+}
+
+.outbox3-1 {
+    width: 100%;
+    height: 270px;
+
+}
+
+.gbox1 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox1 img {
+    width: 100%;
+}
+
+.gbox2 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox2 img {
+    width: 100%;
+}
+
+.gbox3 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox3 img {
+    width: 100%;
+}
+
+.gbox4 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox4 img {
+    width: 100%;
+}
+
+.gbox5 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox5 img {
+    width: 100%;
+}
+
+.gbox6 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox6 img {
+    width: 100%;
+}
+
+.gbox7 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox7 img {
+    width: 100%;
+}
+
+.gbox8 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox8 img {
+    width: 100%;
+}
+
+.gbox9 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox9 img {
+    width: 100%;
+}
+
+/* DISCOGRAPHY */
+#discography {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 13%;
+}
+
+.titlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discobox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumbox {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 400px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 12rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+}
+
+.track {
+    width: 400px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 12rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    display: none;
+}
+
+
+.slider__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider__img {
+    /*이미지가 나타나는(보이는) 영역*/
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider__inner {
+    /*이미지가 슬라이드 되는(움직이는) 영역*/
+    display: flex;
+    width: 4000px;
+    height: 400px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.discoblock {
+    width: 400px;
+    height: 100%;
+}
+
+.trackblock {
+    width: 400px;
+    height: 100%;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    background-color: #fff;
+}
+
+.trackblock ol {
+    margin-top: 60px;
+}
+
+.trackblock li {
+    font-size: var(--size-s);
+    text-align: left;
+    padding: 15px;
+}
+
+.basic {
+    text-indent: 110px;
+}
+
+.TITLE {
+    text-indent: 55px;
+}
+
+.time {
+    font-weight: bold;
+    color: #444;
+}
+
+.slider__btn a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.slider__btn a.previous {
+    left: -10%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+.slider__btn a.next {
+    right: -10%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+/* .slider__btn a.previous:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+  }
+
+  .slider__btn a.next:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+  } */
+
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+
+.slider__dot .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: all 0.5s;
+    margin: 3px;
+}
+
+.slider__dot .dot.active {
+    background-color: #7afafa;
+}
+
+
+
+
+
+
+.teaser {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.movie {
+    width: 100%;
+    height: 75vh;
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+}
+
+.movie iframe {
+    width: 100%;
+    border: 0;
+    
+}
+
+
+/* LEGACY */
+#legacy {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.legacyboard {
+    width: 74%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 13%;
+}
+
+.legacy2023 {
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.year2023 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 25% 0 5% 0;
+}
+
+.awards2023 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+}
+
+.awards2023 li {
+    padding: 5px;
+}
+
+.legacy2022 {
+    width: 60%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.year2022 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 10% 0 5% 0;
+}
+
+.awards2022 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+}
+
+.awards2022 li {
+    padding: 5px;
+}
+
+.bottomphoto {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomphotoinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottomphotoinner img {
+    width: 100%;
+}    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+
+/* HOME */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainhome {
+    position: relative;
+}
+
+.mainbg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainbg img {
+    position: absolute;
+    top: -70%;
+    width: 110%;
+}
+
+.topbar {
+    width: 155px;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.topbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.topbar li {
+    padding-top: 5%;
+    text-align: left;
+    text-indent: 70px;
+}
+
+.topbar li a {
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-size: 3rem;
+    color: var(--white);
+
+}
+
+.topbar li a:hover {
+    color: var(--point);
+}
+
+.artistlogo {
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    top: 640px;
+    left: 26%;
+}
+
+.artistlogo img {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+
+
+/* ABOUT */
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.debut {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.debut p {
+    font-size: 7rem;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-weight: bold;
+}
+
+.explain {
+    width: 65%;
+    height: 150px;
+    text-align: center;
+}
+
+.explain p {
+    font-size: 3.5rem;
+}
+
+.aboutphoto {
+    width: 100%;
+}
+
+.aboutphoto img {
+    width: 100%;
+}
+
+/* MEMBERS */
+#members {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.membersboard {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.innerbox {
+    width: 800px;
+    height: 90%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile1 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile2 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile3 {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph1:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph1 img {
+    width: 100%;
+}
+
+.ph2 {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ph2 img {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.ph3 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph3:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph3 img {
+    width: 100%;
+}
+
+.ph4 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph4:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph4 img {
+    width: 100%;
+}
+
+.ph5 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph5:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph5 img {
+    width: 100%;
+}
+
+.ph6 {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ph6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ph7 {
+    width: 400px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ph7 img {
+    width: 100%;
+}
+
+.ph8 {
+    width: 270px;
+    height: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph8:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph8 img {
+    width: 100%;
+}
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_logo {
+    width: 300px;
+    height: 50px;
+}
+
+.le_logo img {
+    width: 100%;
+
+}
+
+.membersinfo {
+    width: 300px;
+    height: 700px;
+    text-align: center;
+}
+
+.membersname {
+    padding-top: 50px;
+    font-size: var(--size-s);
+
+}
+
+.membersname ul {
+    padding: 5%;
+}
+
+.manme {
+    font-weight: bold;
+}
+
+.type {
+    padding-top: 0px;
+    font-size: var(--size-s);
+}
+
+.type ul {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* GALLERY */
+#gallery {
+    width: 100%;
+    height: 100vh;
+}
+
+.galleryboard {
+    width: 800px;
+    height: 99%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.ginner1 {
+    width: 800px;
+    height: 31%;
+}
+
+.ginner2 {
+    width: 800px;
+    height: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept2 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept3 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept4 {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.outbox1 {
+    width: 100%;
+    height: 270px;
+}
+
+.outbox1-1 {
+    width: 100%;
+    height: 320px;
+}
+
+.outbox2 {
+    width: 100%;
+    height: 190px;
+}
+
+.outbox2-1 {
+    width: 100%;
+    height: 450px;
+}
+
+.outbox3 {
+    width: 100%;
+    height: 320px;
+
+}
+
+.outbox3-1 {
+    width: 100%;
+    height: 270px;
+}
+
+.gbox1 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox1 img {
+    width: 100%;
+}
+
+.gbox2 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox2 img {
+    width: 100%;
+}
+
+.gbox3 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox3 img {
+    width: 100%;
+}
+
+.gbox4 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox4 img {
+    width: 100%;
+}
+
+.gbox5 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox5 img {
+    width: 100%;
+}
+
+.gbox6 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox6 img {
+    width: 100%;
+}
+
+.gbox7 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox7 img {
+    width: 100%;
+}
+
+.gbox8 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox8 img {
+    width: 100%;
+}
+
+.gbox9 {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox9 img {
+    width: 100%;
+}
+
+/* DISCOGRAPHY */
+#discography {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 13%;
+}
+
+.titlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discobox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumbox {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 410px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+}
+
+.track {
+    width: 410px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    display: none;
+}
+
+.slider__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider__img {
+    /*이미지가 나타나는(보이는) 영역*/
+    position: relative;
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slider__inner {
+    /*이미지가 슬라이드 되는(움직이는) 영역*/
+    display: flex;
+    width: 4000px;
+    height: 400px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.discoblock {
+    width: 350px;
+    height: 100%;
+}
+
+.trackblock {
+    width: 350px;
+    height: 100%;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    background-color: #fff;
+}
+
+.trackblock ol {
+    margin-top: 60px;
+}
+
+.trackblock li {
+    font-size: var(--size-s);
+    text-align: left;
+    padding: 15px;
+}
+
+.basic {
+    text-indent: 110px;
+}
+
+.TITLE {
+    text-indent: 55px;
+}
+
+.time {
+    font-weight: bold;
+    color: #444;
+}
+
+.slider__btn a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.slider__btn a.previous {
+    left: -10%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+.slider__btn a.next {
+    right: -10%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+/* .slider__btn a.previous:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+  }
+
+  .slider__btn a.next:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+  } */
+
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+
+.slider__dot .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: all 0.5s;
+    margin: 3px;
+}
+
+.slider__dot .dot.active {
+    background-color: #7afafa;
+}
+
+
+.teaser {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+}
+
+.movie iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* LEGACY */
+#legacy {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.legacyboard {
+    width: 74%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 13%;
+}
+
+.legacy2023 {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.year2023 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 25% 0 5% 0;
+}
+
+.awards2023 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2023 li {
+    padding: 5px;
+}
+
+.legacy2022 {
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.year2022 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 10% 0 5% 0;
+}
+
+.awards2022 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2022 li {
+    padding: 5px;
+}
+
+.bottomphoto {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomphotoinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottomphotoinner img {
+    width: 100%;
+}
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+
+/* HOME */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainhome {
+    position: relative;
+}
+
+.mainbg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainbg img {
+    position: absolute;
+    top: -35%;
+    width: 110%;
+}
+
+.topbar {
+    width: 155px;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.topbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.topbar li {
+    padding-top: 4%;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.topbar li a {
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-size: 3rem;
+    color: var(--white);
+
+}
+
+.topbar li a:hover {
+    color: var(--point);
+}
+
+.artistlogo {
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    top: 640px;
+    left: 24%;
+}
+
+.artistlogo img {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+
+
+/* ABOUT */
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.debut {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.debut p {
+    font-size: 6rem;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-weight: bold;
+}
+
+.explain {
+    width: 65%;
+    height: 150px;
+    text-align: center;
+}
+
+.explain p {
+    font-size: 2.8rem;
+}
+
+.aboutphoto {
+    width: 100%;
+}
+
+.aboutphoto img {
+    width: 100%;
+}
+
+/* MEMBERS */
+#members {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.membersboard {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.innerbox {
+    width: 600px;
+    height: 70%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile1 {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile2 {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile3 {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 {
+    width: 200px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph1:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph1 img {
+    width: 100%;
+}
+
+.ph2 {
+    width: 150px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph2 img {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.ph3 {
+    width: 200px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph3:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph3 img {
+    width: 100%;
+}
+
+.ph4 {
+    width: 200px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph4:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph4 img {
+    width: 100%;
+}
+
+.ph5 {
+    width: 200px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph5:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph5 img {
+    width: 100%;
+}
+
+.ph6 {
+    width: 150px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ph7 {
+    width: 300px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ph7 img {
+    width: 100%;
+}
+
+.ph8 {
+    width: 200px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph8:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph8 img {
+    width: 100%;
+}
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_logo {
+    width: 300px;
+    height: 50px;
+}
+
+.le_logo img {
+    width: 100%;
+
+}
+
+.membersinfo {
+    width: 300px;
+    height: 700px;
+    text-align: center;
+}
+
+.membersname {
+    padding-top: 50px;
+    font-size: var(--size-s);
+
+}
+
+.membersname ul {
+    padding: 5%;
+}
+
+.manme {
+    font-weight: bold;
+}
+
+.type {
+    padding-top: 0px;
+    font-size: var(--size-s);
+}
+
+.type ul {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* GALLERY */
+#gallery {
+    width: 100%;
+    height: 100vh;
+}
+
+.galleryboard {
+    width: 600px;
+    height: 99%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.ginner1 {
+    width: 600px;
+    height: 30%;
+}
+
+.ginner2 {
+    width: 600px;
+    height: 67%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept1 {
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept2 {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept3 {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept4 {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.outbox1 {
+    width: 100%;
+    height: 270px;
+}
+
+.outbox1-1 {
+    width: 100%;
+    height: 325px;
+}
+
+.outbox2 {
+    width: 100%;
+    height: 190px;
+}
+
+.outbox2-1 {
+    width: 100%;
+    height: 650px;
+}
+
+.outbox3 {
+    width: 100%;
+    height: 320px;
+
+}
+
+.outbox3-1 {
+    width: 100%;
+    height: 340px;
+}
+
+.gbox1 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox1 img {
+    width: 100%;
+}
+
+.gbox2 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox2 img {
+    width: 100%;
+}
+
+.gbox3 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gbox3 img {
+    width: 100%;
+}
+
+.gbox4 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox4 img {
+    width: 100%;
+}
+
+.gbox5 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox5 img {
+    width: 100%;
+}
+
+.gbox6 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox6 img {
+    width: 100%;
+}
+
+.gbox7 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox7 img {
+    width: 100%;
+}
+
+.gbox8 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox8 img {
+    width: 100%;
+}
+
+.gbox9 {
+    width: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox9 img {
+    width: 100%;
+}
+
+/* DISCOGRAPHY */
+#discography {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 13%;
+}
+
+.titlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discobox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumbox {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+}
+
+.track {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    display: none;
+}
+
+.slider__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider__img {
+    /*이미지가 나타나는(보이는) 영역*/
+    position: relative;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slider__inner {
+    /*이미지가 슬라이드 되는(움직이는) 영역*/
+    display: flex;
+    width: 2000px;
+    height: 400px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.discoblock {
+    width: 250px;
+    height: 100%;
+}
+
+.trackblock {
+    width: 250px;
+    height: 100%;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    background-color: #fff;
+}
+
+.trackblock ol {
+    margin-top: 15px;
+}
+
+.trackblock li {
+    font-size:  3rem;
+    text-align: left;
+    padding: 15px;
+}
+
+.basic {
+    text-indent: 50px;
+}
+
+.TITLE {
+    text-indent: 15px;
+}
+
+.time {
+    font-weight: bold;
+    color: #444;
+}
+
+.slider__btn a {
+    position: absolute;
+    top: 118%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.slider__btn a.previous {
+    left: 15%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+.slider__btn a.next {
+    right: 15%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+/* .slider__btn a.previous:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+  }
+
+  .slider__btn a.next:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+  } */
+
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+
+.slider__dot .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: all 0.5s;
+    margin: 3px;
+}
+
+.slider__dot .dot.active {
+    background-color: #7afafa;
+}
+
+
+.teaser {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+
+.movie iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* LEGACY */
+#legacy {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.legacyboard {
+    width: 74%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 13%;
+}
+
+.legacy2023 {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.year2023 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 25% 0 5% 0;
+}
+
+.awards2023 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2023 li {
+    padding: 5px;
+}
+
+.legacy2022 {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.year2022 {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--white);
+    padding: 10% 0 5% 0;
+}
+
+.awards2022 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2022 li {
+    padding: 5px;
+}
+
+.bottomphoto {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomphotoinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottomphotoinner img {
+    width: 100%;
+}
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+
+/* HOME */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainhome {
+    position: relative;
+}
+
+.mainbg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainbg img {
+    position: absolute;
+    top: -25%;
+    left: -23%;
+    width: 160%;
+}
+
+.topbar {
+    width: 155px;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    display: none;
+}
+
+.topbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.topbar li {
+    padding-top: 4%;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.topbar li a {
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-size: 3rem;
+    color: var(--white);
+
+}
+
+.topbar li a:hover {
+    color: var(--point);
+}
+
+.artistlogo {
+    width: 450px;
+    height: 80px;
+    position: absolute;
+    top: 700px;
+    left: 5%;
+}
+
+.artistlogo img {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+
+
+/* ABOUT */
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.debut {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.debut p {
+    font-size: 4rem;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-weight: bold;
+}
+
+.explain {
+    width: 65%;
+    height: 160px;
+    text-align: center;
+}
+
+.explain p {
+    font-size: 2.6rem;
+}
+
+.aboutphoto {
+    width: 100%;
+}
+
+.aboutphoto img {
+    width: 100%;
+}
+
+/* MEMBERS */
+#members {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.membersboard {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+}
+
+.innerbox {
+    width: 300px;
+    height: 80%;
+    margin: 35px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph1:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph1 img {
+    width: 100%;
+}
+
+.ph2 {
+    width: 80px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph2 img {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ph3 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph3:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph3 img {
+    width: 100%;
+}
+
+.ph4 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph4:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph4 img {
+    width: 100%;
+}
+
+.ph5 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph5:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph5 img {
+    width: 100%;
+}
+
+.ph6 {
+    width: 80px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ph7 {
+    width: 150px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ph7 img {
+    width: 100%;
+}
+
+.ph8 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph8:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph8 img {
+    width: 100%;
+}
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_logo {
+    width: 250px;
+    height: 50px;
+}
+
+.le_logo img {
+    width: 100%;
+
+}
+
+.membersinfo {
+    width: 250px;
+    height: 700px;
+    text-align: center;
+}
+
+.membersname {
+    padding-top: 50px;
+    font-size: 3.5rem;
+
+}
+
+.membersname ul {
+    padding: 5%;
+}
+
+.manme {
+    font-weight: bold;
+}
+
+.type {
+    padding-top: 0px;
+    font-size: 3.5rem;
+}
+
+.type ul {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* GALLERY */
+#gallery {
+    width: 100%;
+    height: auto;
+}
+
+.galleryboard {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.ginner1 {
+    width: 600px;
+    height: auto;
+}
+
+.ginner2 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.outbox1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox1-1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox2 {
+    width: 100%;
+    height: 180px;
+}
+
+.outbox2-1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox3 {
+    width: 100%;
+    height: 390px;
+
+}
+
+.outbox3-1 {
+    width: 100%;
+    height: 190px;
+}
+
+.gbox1 {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gbox1 img {
+    width: 100%;
+}
+
+.gbox2 {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gbox2 img {
+    width: 100%;
+}
+
+.gbox3 {
+    width: 250px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.gbox3 img {
+    width: 100%;
+}
+
+.gbox4 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox4 img {
+    width: 100%;
+}
+
+.gbox5 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox5 img {
+    width: 100%;
+}
+
+.gbox6 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox6 img {
+    width: 100%;
+}
+
+.gbox7 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox7 img {
+    width: 100%;
+}
+
+.gbox8 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox8 img {
+    width: 100%;
+}
+
+.gbox9 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox9 img {
+    width: 100%;
+}
+
+/* DISCOGRAPHY */
+#discography {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 13%;
+}
+
+.titlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discobox {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumbox {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+}
+
+.track {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    display: none;
+}
+
+.slider__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider__img {
+    /*이미지가 나타나는(보이는) 영역*/
+    position: relative;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider__inner {
+    /*이미지가 슬라이드 되는(움직이는) 영역*/
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.discoblock {
+    width: 250px;
+    height: 100%;
+}
+
+.trackblock {
+    width: 250px;
+    height: 100%;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    background-color: #fff;
+}
+
+.trackblock ol {
+    margin-top: 15px;
+}
+
+.trackblock li {
+    font-size:  3rem;
+    text-align: left;
+    padding: 15px;
+}
+
+.basic {
+    text-indent: 33px;
+}
+
+.TITLE {
+    text-indent: -5px;
+}
+
+.time {
+    font-weight: bold;
+    color: #444;
+}
+
+.slider__btn a {
+    position: absolute;
+    top: 105%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.slider__btn a.previous {
+    left: -5%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+.slider__btn a.next {
+    right: -5%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+/* .slider__btn a.previous:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+  }
+
+  .slider__btn a.next:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+  } */
+
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+}
+
+.slider__dot .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: all 0.5s;
+    margin: 3px;
+}
+
+.slider__dot .dot.active {
+    background-color: #7afafa;
+}
+
+
+.teaser {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+
+.movie iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* LEGACY */
+#legacy {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.legacyboard {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 13%;
+}
+
+.legacy2023 {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.year2023 {
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--white);
+    padding: 25% 0 5% 0;
+}
+
+.awards2023 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2023 li {
+    padding: 5px;
+}
+
+.legacy2022 {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.year2022 {
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--white);
+    padding: 10% 0 5% 0;
+}
+
+.awards2022 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.awards2022 li {
+    padding: 5px;
+}
+
+.bottomphoto {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomphotoinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottomphotoinner img {
+    width: 100%;
+}
+}
+
+@media (max-width: 439px) {
+
+/* HOME */
+#home {
+    width: 100%;
+    height: 40vh;
+}
+
+.mainhome {
+    position: relative;
+}
+
+.mainbg {
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainbg img {
+    position: absolute;
+    top: -80%;
+    left: -20%;
+    width: 150%;
+}
+
+.topbar {
+    width: 155px;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    display: none;
+}
+
+.topbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.topbar li {
+    padding-top: 4%;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.topbar li a {
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-size: 3rem;
+    color: var(--white);
+
+}
+
+.topbar li a:hover {
+    color: var(--point);
+}
+
+.artistlogo {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 220px;
+    left: 13%;
+}
+
+.artistlogo img {
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+
+
+/* ABOUT */
+#about {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.debut {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.debut p {
+    font-size: 4rem;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-weight: bold;
+}
+
+.explain {
+    width: 70%;
+    height: 150px;
+    text-align: center;
+}
+
+.explain p {
+    font-size: 2.6rem;
+}
+
+.aboutphoto {
+    width: 100%;
+}
+
+.aboutphoto img {
+    width: 100%;
+}
+
+/* MEMBERS */
+#members {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+.membersboard {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    display: flex;
+}
+
+.innerbox {
+    width: 300px;
+    height: 80%;
+    margin: 40px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph1:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph1 img {
+    width: 100%;
+}
+
+.ph2 {
+    width: 80px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph2 img {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ph3 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph3:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph3 img {
+    width: 100%;
+}
+
+.ph4 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph4:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph4 img {
+    width: 100%;
+}
+
+.ph5 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph5:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph5 img {
+    width: 100%;
+}
+
+.ph6 {
+    width: 80px;
+    height: 90%;
+    overflow: hidden;
+}
+
+.ph6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ph7 {
+    width: 150px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ph7 img {
+    width: 100%;
+}
+
+.ph8 {
+    width: 100px;
+    height: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.ph8:hover {
+    transform: rotateY(180deg);   
+}
+
+.ph8 img {
+    width: 100%;
+}
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_logo {
+    width: 200px;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.le_logo img {
+    width: 100%;
+
+}
+
+.membersinfo {
+    width: 250px;
+    height: 700px;
+    text-align: center;
+}
+
+.membersname {
+    padding-top: 20px;
+    font-size: 3.5rem;
+
+}
+
+.membersname ul {
+    padding: 5%;
+}
+
+.manme {
+    font-weight: bold;
+}
+
+.type {
+    font-size: 3.5rem;
+}
+
+.type ul {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* GALLERY */
+#gallery {
+    width: 100%;
+    height: auto;
+}
+
+.galleryboard {
+    width: 250px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.ginner1 {
+    width: 600px;
+    height: auto;
+}
+
+.ginner2 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.concept4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.outbox1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox1-1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox2 {
+    width: 100%;
+    height: 180px;
+}
+
+.outbox2-1 {
+    width: 100%;
+    height: 390px;
+}
+
+.outbox3 {
+    width: 100%;
+    height: 390px;
+
+}
+
+.outbox3-1 {
+    width: 100%;
+    height: 190px;
+}
+
+.gbox1 {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gbox1 img {
+    width: 100%;
+}
+
+.gbox2 {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.gbox2 img {
+    width: 100%;
+}
+
+.gbox3 {
+    width: 250px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.gbox3 img {
+    width: 100%;
+}
+
+.gbox4 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox4 img {
+    width: 100%;
+}
+
+.gbox5 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox5 img {
+    width: 100%;
+}
+
+.gbox6 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox6 img {
+    width: 100%;
+}
+
+.gbox7 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox7 img {
+    width: 100%;
+}
+
+.gbox8 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox8 img {
+    width: 100%;
+}
+
+.gbox9 {
+    width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gbox9 img {
+    width: 100%;
+}
+
+/* DISCOGRAPHY */
+#discography {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 13%;
+}
+
+.titlebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discobox {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumbox {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+}
+
+.track {
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    display: none;
+}
+
+.slider__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider__img {
+    /*이미지가 나타나는(보이는) 영역*/
+    position: relative;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider__inner {
+    /*이미지가 슬라이드 되는(움직이는) 영역*/
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+.discoblock {
+    width: 250px;
+    height: 100%;
+}
+
+.trackblock {
+    width: 250px;
+    height: 100%;
+    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    background-color: #fff;
+}
+
+.trackblock ol {
+    margin-top: 15px;
+}
+
+.trackblock li {
+    font-size:  3rem;
+    text-align: left;
+    padding: 15px;
+}
+
+.basic {
+    text-indent: 33px;
+}
+
+.TITLE {
+    text-indent: -5px;
+}
+
+.time {
+    font-weight: bold;
+    color: #444;
+}
+
+.slider__btn a {
+    position: absolute;
+    top: 105%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.slider__btn a.previous {
+    left: -5%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+.slider__btn a.next {
+    right: -5%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+    text-indent: -99999px;
+}
+
+/* .slider__btn a.previous:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E");
+  }
+
+  .slider__btn a.next:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='60' height='60' viewBox='0 0 24 24' stroke-width='2' stroke='%23000000' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E");
+  } */
+
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+}
+
+.slider__dot .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -9999px;
+    transition: all 0.5s;
+    margin: 3px;
+}
+
+.slider__dot .dot.active {
+    background-color: #7afafa;
+}
+
+
+.teaser {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+
+.movie iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* LEGACY */
+#legacy {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.legacyboard {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.legacy2023 {
+    width: 100%;
+    height: 150%;
+    margin: 0 auto;
+}
+
+.year2023 {
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--white);
+    padding: 25% 0 5% 0;
+}
+
+.awards2023 {
+    text-align: center;
+    font-size: 2.6rem;
+    color: var(--white);
+}
+
+.awards2023 li {
+    padding: 5px;
+}
+
+.legacy2022 {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.year2022 {
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--white);
+    padding: 10% 0 5% 0;
+}
+
+.awards2022 {
+    text-align: center;
+    font-size: 2.6rem;
+    color: var(--white);
+}
+
+.awards2022 li {
+    padding: 5px;
+}
+
+.bottomphoto {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomphotoinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottomphotoinner img {
+    width: 100%;
+}
+}

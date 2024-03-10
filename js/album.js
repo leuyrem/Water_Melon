@@ -1,0 +1,66 @@
+$(function(){
+    $(".albumList").click(function(){
+        let idx = $(this).index()-1;
+        let artistWho = $(".artistWho");
+        let setList = $(".txt1");
+        let lpSpin = $("#lpSpin>div");
+        let albumArt = $(".albumArt");
+
+        $(artistWho).eq(idx).addClass("active");
+        $(artistWho).eq(idx).not().siblings().removeClass("active");
+        $(setList).eq(idx).addClass("shown");
+        $(setList).eq(idx).not().siblings().removeClass("shown");
+        $(lpSpin).eq(idx).addClass("shown");
+        $(lpSpin).eq(idx).not().siblings().removeClass("shown");
+        $(albumArt).eq(idx).addClass("shown");
+        $(albumArt).eq(idx).not().siblings().removeClass("shown");
+    });
+});
+
+$(document).ready(function(){
+    $(".small .logo>img").attr("src","img/logo(black_03).png");
+});
+
+$(function(){
+    $(window).scroll(function(){
+        let h = $(document).scrollTop();
+        if(h > 130) {
+            $("#hamburger>.line").css("background-color","var(--white)");
+        } else {
+            $("#hamburger>.line").css("background-color","black");
+        }
+    });
+    $(window).scroll(function(){
+        let height = $(document).scrollTop();
+        if(height > 900 && height < 1900) {
+            $(".logo>a>img").attr("src","img/logo(white_03).png");
+        } else {
+            $(".logo>a>img").attr("src","img/logo(black_03).png");
+        }
+    });
+});
+
+// 배경 그라데이션 색, 앨범에 따라 변경
+$(function(){
+    $(".albumList").eq(1).click(function(){
+        $(".albumText").css("background","linear-gradient(-45deg, rgba(51,51,51,0.9) 95%, rgba(255,255,255,0.4) 30%), linear-gradient(180deg, rgba(122,250,250,1) 40%, rgba(0,0,0,0.6) 60%)");
+        $("#backgroundWrap").css("background","linear-gradient(-90deg, rgba(51,51,51,0.8) 50%, rgba(255,255,255,1) 50%), linear-gradient(180deg, rgba(122,250,250,1) 40%, rgba(0,0,0,0.8) 60%)");
+    });
+    $(".albumList").eq(2).click(function(){
+        $(".albumText").css("background","linear-gradient(-45deg, rgba(51,51,51,0.9) 95%, rgba(255,255,255,0.4) 30%), linear-gradient(180deg, rgba(246, 65, 194,1) 40%, rgba(0,0,0,0.6) 60%)");
+        $("#backgroundWrap").css("background","linear-gradient(-90deg, rgba(51,51,51,0.8) 50%, rgba(255,255,255,1) 50%), linear-gradient(180deg, rgba(246, 65, 194,1) 40%, rgba(0,0,0,0.8) 60%)");
+    });
+    $(".albumList").eq(3).click(function(){
+        $(".albumText").css("background","linear-gradient(-45deg, rgba(51,51,51,0.9) 95%, rgba(255,255,255,0.4) 30%), linear-gradient(180deg, rgba(187, 81, 76,1) 40%, rgba(0,0,0,0.6) 60%)");
+        $("#backgroundWrap").css("background","linear-gradient(-90deg, rgba(51,51,51,0.8) 50%, rgba(255,255,255,1) 50%), linear-gradient(180deg, rgba(187, 81, 76,1) 40%, rgba(0,0,0,0.8) 60%)");
+    });
+    $(".albumList").eq(4).click(function(){
+        $(".albumText").css("background","linear-gradient(-45deg, rgba(51,51,51,0.9) 95%, rgba(255,255,255,0.4) 30%), linear-gradient(180deg, rgba(255, 221, 0,1) 40%, rgba(0,0,0,0.6) 60%)");
+        $("#backgroundWrap").css("background","linear-gradient(-90deg, rgba(51,51,51,0.8) 50%, rgba(255,255,255,1) 50%), linear-gradient(180deg, rgba(255, 221, 0,1) 40%, rgba(0,0,0,0.8) 60%)");
+    });
+    $(".albumList").eq(5).click(function(){
+        $(".albumText").css("background","linear-gradient(-45deg, rgba(51,51,51,0.9) 95%, rgba(255,255,255,0.4) 30%), linear-gradient(180deg, rgba(246, 198, 126,1) 40%, rgba(0,0,0,0.6) 60%)");
+        $("#backgroundWrap").css("background","linear-gradient(-90deg, rgba(51,51,51,0.8) 50%, rgba(255,255,255,1) 50%), linear-gradient(180deg, rgba(246, 198, 126,1) 40%, rgba(0,0,0,0.8) 60%)");
+    });
+})
+

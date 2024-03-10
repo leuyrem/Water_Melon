@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterMelon</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo_white_01_.ico">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/54be9efe2e.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="small">
+            <div class="logo"><a href="index.html"><img src="img/logo(white_03).png" alt="logo"></a></div>
+            <div id="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <nav id="menu_wrap">
+            <ul style="display: block;">
+                <li>
+                    <span class="t point">NOTICE</span>
+                    <ul class="sub">
+                        <li>
+                            <a href="sub_event.html">
+                                행사소식
+                                <span>Event</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub_album.html">
+                                이용안내
+                                <span>Guide</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">ARTIST</span>
+                    <ul class="sub">
+                        <li><a href="sub_artist.html">이 달의 신곡<span>Songs</span></a></li>
+                        <li><a href="sub_artist.html">이 달의 가수<span>Singers</span></a></li>
+                        <li><a href="sub_album.html">이 달의 앨범<span>Album</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">MAGAZINE</span>
+                    <ul class="sub">
+                        <li><a href="sub_article.html">연재중<span>In series</span></a></li>
+                        <li><a href="sub_article.html">완결<span>Finished</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">CONTACT</span>
+                    <ul class="sub">
+                        <li><a href="index.html">FAQ</a></li>
+                        <li><a href="index.html">고객지원</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 이유림 -->
+    <!-- 메인 슬라이드 -->
+    <div class="main__wrap">
+        <div class="main__bg">
+            <div class="main__slider">
+                <div class="main__slides">
+                    <div class="main__bn main__1 active">
+                        <div class="poster__tit1">
+                            <img src="img/index_img/1-1.png" alt="mainposter1">
+                            <button class="sub__select title__btn1">노래 감상하기</button>
+                        </div>
+                        <div class="bottom__line__right1"></div>
+                    </div>
+                    <div class="main__bn main__2">
+                        <div class="poster__tit2">
+                            <p class="poster2__date">5/4 SAT ~ 5/5 SUN</p>
+                            <img src="img/index_img/2-1.png" alt="mainposter2">
+                            <p class="poster2__place">서울 난지한강공원</p>
+                            <button class="sub__select title__btn2">예매하기</button>
+                        </div>
+                        <div class="bottom__line__right2"></div>
+                    </div>
+                    <div class="main__bn main__3">
+                        <div class="poster__tit3">
+                             <button class="sub__select title__btn3">예매하기</button>
+                            <img src="img/index_img/3-1.png" alt="mainposter3">                      
+                        </div>
+                        <div class="bottom__line__right3"></div> 
+                    </div>
+                </div>
+                <div class="main__page__btns">
+                    <button class="main__page__btn prev-btn"><i class="xi-angle-left"></i></button>
+                    <button class="main__page__btn next-btn"><i class="xi-angle-right"></i></button>
+                    <div class="main__page__no">
+                        <span class="current__slide__no"></span>
+                        <span class="slash">/</span>
+                        <span class="total__slide__no"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 앨범 슬라이드 -->
+    <div class="album__wrapper">
+        <ul class="album__cover">
+            <li class="album__box1"> <img src="img/index_img/a1.jpg" alt="a1"> </li>
+            <li class="album__box2"> <img src="img/index_img/a2.jpg" alt="a2"> </li>
+            <li class="album__box3"> <img src="img/index_img/a3.jpg" alt="a3"> </li>
+            <li class="album__box4"> <img src="img/index_img/a4.jpg" alt="a4"> </li>
+            <li class="album__box5"> <img src="img/index_img/a5.jpg" alt="a5"> </li>
+            <li class="album__box6"> <img src="img/index_img/a6.jpg" alt="a6"> </li>
+            <li class="album__box7"> <img src="img/index_img/a7.jpg" alt="a7"> </li>
+            <li class="album__box8"> <img src="img/index_img/a8.jpg" alt="a8"> </li>
+            <li class="album__box9"> <img src="img/index_img/a9.jpg" alt="a9"> </li>
+            <li class="album__box10"> <img src="img/index_img/a10.jpg" alt="a10"> </li>
+        </ul>
+    </div>
+    <p class="controls">
+        <span class="cover__prev">&lt;</span>
+        <span class="cover__next">&gt;</span>
+    </p>
+
+    <!-- 전종호 -->
+    <div id="leftWrap_0">
+
+        <div class="content_0">
+
+            <div class="content_1">
+
+                <div class="box_1">
+                    <img src="img/index_img/kennyG.png" alt="케니지">
+                </div>
+
+                <div class="box_2">
+                    <h2 class="category_name">MAGAZINE</h2>
+
+                    <div class="text_1">
+                        <h3>[트렌드 클래핑] 2024 Kenny G</h3>
+                    </div>
+
+                    <div class="text_2">
+                        <p>뮤지션 Kenny G가정규 앨범 [Innocence]의 무대를 국내에서 처음 선보일 예정입니다!
+                            Kenny G 만의 독특한 스타일로 재해석한 고전 음악들과 자작곡들로 구성된 이번 앨범은 발매와 동시에 큰 화제를 불러일으켰으니
+                            Kenny G의 공연을 오랫동안 기다려온 국내 팬들은 더욱 기대해 주시면 좋을 것 같습니다!</p>
+                    </div>
+
+                    <div class="btn_1">
+                        <div class="btn_color"></div>
+                        <a href="sub_article.html">MORE...</a>
+                    </div>
+
+                    <h2 class="caption">WaterMelon</h2>
+
+                </div>
+
+            </div>
+
+            <div class="content_2">
+
+                <div class="box_1">
+                    <img src="img/index_img/트와이스2.jpg" alt="트와이스">
+                </div>
+
+                <div class="box_2">
+                    <h2 class="category_name">MAGAZINE</h2>
+
+                    <div class="text_1">
+                        <h3>[트와이스] 그들의 무한한 날갯짓</h3>
+                    </div>
+
+                    <div class="text_2">
+                        <p>10년차 걸그룹 TWICE가 새 미니 앨범, [With YOU-th]를 발매했습니다. 어느덧 데뷔 10년차를 맞은 그들의
+                            미니 13집인데요 타이틀곡 'ONE SPARK'와 'I GOT YOU'의 무대를 선보이며, 현지 팬들과 호흡하기도 했지요.</p>
+                    </div>
+
+                    <div class="btn_1">
+                        <div class="btn_color"></div>
+                        <a href="sub_article.html">MORE...</a>
+                    </div>
+                    <h2 class="caption">WaterMelon</h2>
+                </div>
+            </div>
+
+            <div class="content_3">
+
+                <div class="box_1">
+                    <img src="img/index_img/하이키1.jpg" alt="하이키">
+                </div>
+
+                <div class="box_2">
+                    <h2 class="category_name">MAGAZINE</h2>
+
+                    <div class="text_1">
+                        <h3>[하이키] H1-KEY의 새로운 도전</h3>
+                    </div>
+
+                    <div class="text_2">
+                        <p>H1-KEYnote 프로젝트는 'KEYNOTE'라는 단어에서 시작되었다. H1-KEY (하이키) 음악의 기조이자 H1-KEY (하이키) 그룹이
+                            가진 '좋은 음악'이라는 정체성에서 출발하게 된 이 프로젝트는 온전히 노래와 가사가 주는 힘만으로 동시대를 살아가고 있는 이들에게
+                            위로와 감동을 주고자 한다.</p>
+                    </div>
+
+                    <div class="btn_1">
+                        <div class="btn_color"></div>
+                        <a href="sub_article.html">MORE...</a>
+                    </div>
+                    <h2 class="caption">WaterMelon</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 박동열 -->
+
+    <div id="indexWrap">
+        <div id="artistSlider">
+            <div class="rollingList">
+                <ul>
+                    <li>
+                        <div class="artistName">
+                            <span>LE SSERAFIM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">IU</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">Lee ChanWon</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">MAKTUB</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">YOUNHA</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span>BTS</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span>Lim YoungWoong</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span>Aespa</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span>NCT127</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">NewJeans</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">Park JaeJung</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">Day6</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span class="smallTxt">AKMU</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="artistName">
+                            <span>(G)I-DLE</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="dyBackground">
+            <div id="clipSlider">
+                <div class="sliderBody">
+                    <div class="sliderClip">
+                        <video src="video/LESSERAFIM_Easy.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/AKMU_LoveLee.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/BTS_Butter.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/임영웅_DoorDie.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/IU_Loveisall.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/GIDLE_Superlady.mp4" muted loop></video>
+                    </div>
+                    <div class="sliderClip">
+                        <video src="video/Younha_EventHorizon.mp4" muted loop></video>
+                    </div>
+                </div>
+            </div>
+            <div id="paginationSlider">
+                <div class="slidePagination">
+                    <div class="paginationItems active">
+                        <span>LE SSERAFIM</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>AKMU</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>BTS</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>Lim YoungWoong</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>IU</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>(G)-IDLE</span>
+                    </div>
+                    <div class="paginationItems">
+                        <span>Younha</span>
+                    </div>
+                </div>
+
+            </div>
+            <script src="js/clipSlider.js"></script>
+        </div>
+    </div>
+
+
+    <footer>
+        <div id="footer_box">
+            <div class="footer_menu1">
+                <ul>
+                    <li><a href="#none">About US</a></li>
+                    <li><a href="#none">Terms&Conditions</a></li>
+                    <li><a href="#none">Privacy Policy</a></li>
+                    <li><a href="#none">Help</a></li>
+                </ul>
+            </div>
+            <div class="footer_menu2">
+                <ul>
+                    <li><a href="#none">Contact</a></li>
+                    <li><a href="#none">Location</a></li>
+                    <li><a href="sub_artist.html">About</a></li>
+                    <li><a href="sub_event.html">Event</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul>
+                    <li class="address">
+                        <span>
+                            Address:
+                        </span>
+                        <p>
+                            905, Deogyeon-daero, <br>
+                            Paldal-gu, Suwon-si, <br>
+                            Gyeonggi-do, <br>
+                            Republic of Korea
+                        </p>
+                    </li>
+                    <li class="phone">
+                        <span>
+                            Phone:
+                        </span>
+                        <p>
+                            (+82)10 1234 5678
+                        </p>
+                    </li>
+                    <li class="email">
+                        <span>
+                            Email:
+                        </span>
+                        <p>
+                            watermelon@naver.com
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_mail">
+                <p>
+                    Sign up for our newsletter
+                </p>
+                <form class="footer_ch">
+                    <input type="text" placeholder="Your E-mail..." name="submit" class="submit">
+                    <button type="button" class="fa-regular fa-paper-plane"></button>
+                </form>
+            </div>
+            <div class="footer_line">
+                <hr>
+            </div>
+            <div class="footer_last">
+                <div class="last_text">
+                    <p>
+                        Copyright ©2024 All rights reserved | made by Watermelon
+                    </p>
+                </div>
+                <div class="last_icon">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-line"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

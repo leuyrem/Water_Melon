@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterMelon</title>
+    <link rel="stylesheet" href="css/album.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo_white_01_.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/54be9efe2e.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/album.js"></script>
+    <script></script>
+</head>
+
+<body>
+    <header>
+        <div class="small">
+            <div class="logo"><a href="index.html"><img src="img/logo(white_03).png" alt="logo"></a></div>
+            <div id="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <nav id="menu_wrap">
+            <ul style="display: block;">
+                <li>
+                    <span class="t point">NOTICE</span>
+                    <ul class="sub">
+                        <li>
+                            <a href="sub_event.html">
+                                행사소식
+                                <span>Event</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub_album.html">
+                                이용안내
+                                <span>Guide</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">ARTIST</span>
+                    <ul class="sub">
+                        <li><a href="sub_artist.html">이 달의 신곡<span>Songs</span></a></li>
+                        <li><a href="sub_artist.html">이 달의 가수<span>Singers</span></a></li>
+                        <li><a href="sub_album.html">이 달의 앨범<span>Album</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">MAGAZINE</span>
+                    <ul class="sub">
+                        <li><a href="sub_article.html">연재중<span>In series</span></a></li>
+                        <li><a href="sub_article.html">완결<span>Finished</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="t point">CONTACT</span>
+                    <ul class="sub">
+                        <li><a href="index.html">FAQ</a></li>
+                        <li><a href="index.html">고객지원</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="subHeader">
+        <p>Album</p>
+    </div>
+    <div id="backgroundWrap" style="overflow-x: hidden;">
+        <div id="albumWrap" class="">
+            <div class="playList">
+                <div id="btn1">
+                    <a href="">See All</a>
+                    <a href="">Top Pick's</a>
+                    <a href="">Recent Albums</a>
+                </div>
+                <div class="artistTag">
+                    <div class="artistWho active">
+                        <div class="artistPicture"></div>
+                        <p>LE SSERAFIM<br>
+                            <span>EASY, 2024</span>
+                        </p>
+                    </div>
+                    <div class="artistWho">
+                        <div class="artistPicture"></div>
+                        <p>AKMU<br>
+                            <span>Love Lee, 2023</span>
+                        </p>
+                    </div>
+                    <div class="artistWho">
+                        <div class="artistPicture"></div>
+                        <p>IU<br>
+                            <span>The Winning, 2024</span>
+                        </p>
+                    </div>
+                    <div class="artistWho">
+                        <div class="artistPicture"></div>
+                        <p>BTS<br>
+                            <span>Butter, 2021</span>
+                        </p>
+                    </div>
+                    <div class="artistWho">
+                        <div class="artistPicture"></div>
+                        <p>YOUNHA<br>
+                            <span>End Theory, 2021</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="txt1 shown">
+
+                    <!-- 르세라핌(default) -->
+                    <ul class="setList listOne">
+                        <li>
+                            <p class="trackNum">01</p>
+                            <img src="img/album_sub_img/easy.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Good Bones<br>
+                                <span>LE SSERAFIM (르세라핌)</span>
+                            </p>
+                            <p class="trackTime">2:41</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">02</p>
+                            <img src="img/album_sub_img/easy.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">EASY<br>
+                                <span>LE SSERAFIM (르세라핌)</span>
+                            </p>
+                            <p class="trackTime">2:44</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">03</p>
+                            <img src="img/album_sub_img/easy.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Swan Song<br>
+                                <span>LE SSERAFIM (르세라핌)</span>
+                            </p>
+                            <p class="trackTime">2:38</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">04</p>
+                            <img src="img/album_sub_img/easy.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Smart<br>
+                                <span>LE SSERAFIM (르세라핌)</span>
+                            </p>
+                            <p class="trackTime">2:47</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">05</p>
+                            <img src="img/album_sub_img/easy.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">We got so much<br>
+                                <span>LE SSERAFIM (르세라핌)</span>
+                            </p>
+                            <p class="trackTime">2:46</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 악동뮤지션 -->
+                <div class="txt1">
+                    <ul class="setList listTwo">
+                        <li>
+                            <p class="trackNum">01</p>
+                            <img src="img/album_sub_img/lovelee.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Love Lee<br>
+                                <span>AKMU (악뮤)</span>
+                            </p>
+                            <p class="trackTime">3:00</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">02</p>
+                            <img src="img/album_sub_img/lovelee.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">후라이의 꿈<br>
+                                <span>AKMU (악뮤)</span>
+                            </p>
+                            <p class="trackTime">3:25</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 아이유 -->
+                <div class="txt1">
+                    <ul class="setList listThree">
+                        <li>
+                            <p class="trackNum">01</p>
+                            <img src="img/album_sub_img/the_winning.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Shopper<br>
+                                <span>IU (아이유)</span>
+                            </p>
+                            <p class="trackTime">3:35</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">02</p>
+                            <img src="img/album_sub_img/the_winning.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">홀씨<br>
+                                <span>IU (아이유)</span>
+                            </p>
+                            <p class="trackTime">3:10</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">03</p>
+                            <img src="img/album_sub_img/the_winning.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Shh.. <span>(Feat. 혜인, 조원선, ...)</span><br>
+                                <span>IU (아이유)</span>
+                            </p>
+                            <p class="trackTime">3:46</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">04</p>
+                            <img src="img/album_sub_img/the_winning.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Love wins all<br>
+                                <span>IU (아이유)</span>
+                            </p>
+                            <p class="trackTime">4:31</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">05</p>
+                            <img src="img/album_sub_img/the_winning.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">관객이 될게 <span>(I stan U)</span><br>
+                                <span>IU (아이유)</span>
+                            </p>
+                            <p class="trackTime">3:12</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 방탄소년단 -->
+                <div class="txt1">
+                    <ul class="setList listFour">
+                        <li>
+                            <p class="trackNum">01</p>
+                            <img src="img/album_sub_img/butter.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Butter<br>
+                                <span>BTS (방탄소년단)</span>
+                            </p>
+                            <p class="trackTime">2:44</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">02</p>
+                            <img src="img/album_sub_img/butter.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Butter <span>(Hotter Remix)</span><br>
+                                <span>BTS (방탄소년단)</span>
+                            </p>
+                            <p class="trackTime">2:46</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">03</p>
+                            <img src="img/album_sub_img/butter.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Butter <span>(Sweeter Remix)</span><br>
+                                <span>BTS (방탄소년단)</span>
+                            </p>
+                            <p class="trackTime">2:42</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">04</p>
+                            <img src="img/album_sub_img/butter.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Butter <span>(Cooler Remix)</span><br>
+                                <span>BTS (방탄소년단)</span>
+                            </p>
+                            <p class="trackTime">2:41</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">05</p>
+                            <img src="img/album_sub_img/butter.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Butter <span>(Instrumental)</span><br>
+                                <span>BTS (방탄소년단)</span>
+                            </p>
+                            <p class="trackTime">2:44</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 윤하 -->
+                <div class="txt1">
+                    <ul class="setList listFive">
+                        <li>
+                            <p class="trackNum">01</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">P.R.R.W.<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:14</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">02</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">나는 계획이 있다<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:20</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">03</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">오르트구름<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:27</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">04</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">물의여행<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">2:55</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">05</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">잘 지내<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">4:06</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">06</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">반짝, 빛을 내<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:29</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">07</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">6년 230일<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:29</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">08</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Truly<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:36</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">09</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">별의 조각<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:50</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">10</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">하나의 달<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">4:41</p>
+                        </li>
+                        <li>
+                            <p class="trackNum">11</p>
+                            <img src="img/album_sub_img/end_theory.jpg" alt="">
+                            <span class="arrow">▶</span>
+                            <p class="songTitle">Savior<br>
+                                <span>Younha (윤하)</span>
+                            </p>
+                            <p class="trackTime">3:34</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div id="lpSpin">
+                <img src="img/lp.png" alt="">
+                <div class="rotateAlbum shown"></div>
+                <div class="rotateAlbum"></div>
+                <div class="rotateAlbum"></div>
+                <div class="rotateAlbum"></div>
+                <div class="rotateAlbum"></div>
+            </div>
+
+            <div class="albumText">
+                <!-- 르세라핌(default) -->
+                <div class="albumArt shown">
+                    <div class="txt2">
+                        <div class="artImage">
+                            <img src="img/album_sub_img/easy.jpg" alt="" class="album">
+                            <img src="img/lp.png" alt="" class="lp">
+                        </div>
+                        <div class="albumTitle">
+                            <span>쏘스뮤직</span>
+                            <p>
+                                EP: EASY / LE SSERAFIM
+                                <i class="fa-regular fa-heart"></i>
+                            </p>
+                            <span>2024.02.19</span>
+                        </div>
+                        <div class="albumInfo">
+                            <span>Info</span>
+                            <p>르세라핌, 2월 19일 미니 3집 ‘EASY’ 발매…새로운 음악적 시도로 증명할 성장!
+                                당당함 이면의 불안과 고민을 솔직하게 토로…멤버들 곡 작업 참여로 진정성 배가<br>
+                                “쉽지 않음 내가 쉽게 easy” 타이틀곡 ‘EASY’에 담은 각오<br>
+                                르세라핌(LE SSERAFIM)이 2월 19일 세 번째 미니 앨범 ‘EASY’로 돌아온다.</p>
+                        </div>
+                        <div class="btn2">
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>Order</p>
+                            </div>
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>See Artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 악동뮤지션 -->
+                <div class="albumArt">
+                    <div class="txt2">
+                        <div class="artImage">
+                            <img src="img/album_sub_img/lovelee.jpg" alt="" class="album">
+                            <img src="img/lp.png" alt="" class="lp">
+                        </div>
+                        <div class="albumTitle">
+                            <span>YG Entertainment</span>
+                            <p>
+                                싱글: Love Lee / AKMU
+                                <i class="fa-regular fa-heart"></i>
+                            </p>
+                            <span>2023.08.21</span>
+                        </div>
+                        <div class="albumInfo">
+                            <span>Info</span>
+                            <p>‘가사는 특별하게, 음악은 담백하게’
+                                AKMU가 4번째 싱글 [Love Lee]로 돌아왔다.<br>
+                                이번 앨범은 청량하고 밝은 에너지를 담은 ‘Love Lee’, 위로와 공감이 될 수 있는 가사가 돋보이는 ‘후라이의 꿈' 두 곡이 수록되었으며 누구나
+                                쉽게 접할 수 있는 소재를 AKMU만의 톡톡 튀는 감성으로 풀어내었다.
+                                <br>
+                                [Love Lee]는 누구에게나 사랑스러운 선물 같은 앨범이길 바란다.
+                            </p>
+                        </div>
+                        <div class="btn2">
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>Order</p>
+                            </div>
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>See Artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 아이유 -->
+
+                <div class="albumArt">
+                    <div class="txt2">
+                        <div class="artImage">
+                            <img src="img/album_sub_img/the_winning.jpg" alt="" class="album">
+                            <img src="img/lp.png" alt="" class="lp">
+                        </div>
+                        <div class="albumTitle">
+                            <span>EDAM 엔터테인먼트</span>
+                            <p>
+                                EP: The Winning / IU
+                                <i class="fa-regular fa-heart"></i>
+                            </p>
+                            <span>2024.02.20</span>
+                        </div>
+                        <div class="albumInfo">
+                            <span>Info</span>
+                            <p> 삼십 대 첫 앨범이다. <br>
+                                결론과 디테일들은 판이하지만 기운만큼은 스물세 살 때의 그것이다. 그때 욕심내던 것들과는 전혀 다른 욕심들에 피가 도는 어른이 됐으나 이러나저러나
+                                ‘욕심쟁이’라는 본질은 그대로다. 골똘하던 물음표들을 지우고 그 자리에 느낌표를 그렸다. 삼십 대 들어 새로이 쓸 욕심 리스트의 첫 번째 칸은
+                                ‘승리’로 채웠다. 이제는 내가 원하는 것이 뭔지 헷갈리지 않는다. 간만에 나는 이런 내가 다시 또 재밌다.</p>
+                        </div>
+                        <div class="btn2">
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>Order</p>
+                            </div>
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>See Artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 방탄소년단 -->
+                <div class="albumArt">
+                    <div class="txt2">
+                        <div class="artImage">
+                            <img src="img/album_sub_img/butter.jpg" alt="" class="album">
+                            <img src="img/lp.png" alt="" class="lp">
+                        </div>
+                        <div class="albumTitle">
+                            <span>BIGHIT MUSIC</span>
+                            <p>
+                                싱글: Butter / BTS
+                                <i class="fa-regular fa-heart"></i>
+                            </p>
+                            <span>2021.05.21</span>
+                        </div>
+                        <div class="albumInfo">
+                            <span>Info</span>
+                            <p>버터처럼 부드럽게 스며드는 방탄소년단의 독보적인 매력!
+                                그룹 방탄소년단이 5월 21일 신나고 경쾌한 서머송(Summer Song)으로 돌아왔다. <br>
+                                새 디지털 싱글 ‘Butter’ 는 중독성 강한 댄스 팝 장르로, 도입부부터 귀를 사로잡는 베이스 라인과 청량한 신스(Synth) 사운드가 특징이다.
+                                2020년 8월 21일 발매와 동시에 전 세계를 강타한 디지털 싱글 'Dynamite'에 이은 방탄소년단의 두 번째 영어 곡.
+                            </p>
+                        </div>
+                        <div class="btn2">
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>Order</p>
+                            </div>
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>See Artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 윤하 -->
+                <div class="albumArt">
+                    <div class="txt2">
+                        <div class="artImage">
+                            <img src="img/album_sub_img/end_theory.jpg" alt="" class="album">
+                            <img src="img/lp.png" alt="" class="lp">
+                        </div>
+                        <div class="albumTitle">
+                            <span>C9 Entertainment</span>
+                            <p>
+                                정규: END THEORY / YOUNHA
+                                <i class="fa-regular fa-heart"></i>
+                            </p>
+                            <span>2021.11.16</span>
+                        </div>
+                        <div class="albumInfo">
+                            <span>Info</span>
+                            <p>윤하 정규 6집 [End Theory]<br>
+                                딛고 지내온 모든 것들을 사랑하기로 했다. 정확히는, 사랑하는 선택을 하기로 했다. 그것은 시간이나 사람이나 감정의 형태로 남아있다. 더 이상의
+                                시공간은 중요하지 않다.
+                                주어진 시간이 얼만큼 남았는지는 모른다.<br>
+                                너와 내가 지나온 모든 것들이 우리를 만들었고, 그것은 대화의 주제로 이따금씩 돌아 볼 수 있겠지만 이상도 이하도 아니다. 다만, 서로를 제대로 사랑할
+                                수 있는 이해의 기반이 되길 바란다.</p>
+                        </div>
+                        <div class="btn2">
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>Order</p>
+                            </div>
+                            <div class="button">
+                                <div class="btn_color"></div>
+                                <p>See Artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="underSlide">
+        <div id="extraAlbum">
+            <div class="albumList">
+                <img src="img/album_sub_img/easy.jpg" alt="">
+                <p>LE SSERAFIM - Easy</p>
+            </div>
+            <div class="albumList">
+                <img src="img/album_sub_img/lovelee.jpg" alt="">
+                <p>AKMU - Love Lee</p>
+            </div>
+            <div class="albumList">
+                <img src="img/album_sub_img/the_winning.jpg" alt="">
+                <p>IU - The Winning</p>
+            </div>
+            <div class="albumList">
+                <img src="img/album_sub_img/butter.jpg" alt="">
+                <p>BTS - Butter</p>
+            </div>
+            <div class="albumList">
+                <img src="img/album_sub_img/end_theory.jpg" alt="">
+                <p>Younha - End Theory</p>
+            </div>
+            <div class="prev btn3 fa-solid fa-angle-left"></div>
+            <div class="next btn3 fa-solid fa-angle-right"></div>
+        </div>
+        <ul class="albumPage"></ul>
+        <script src="js/albumSlider.js"></script>
+    </div>
+    <footer>
+        <div id="footer_box">
+            <div class="footer_menu1">
+                <ul>
+                    <li><a href="#none">About US</a></li>
+                    <li><a href="#none">Terms&Conditions</a></li>
+                    <li><a href="#none">Privacy Policy</a></li>
+                    <li><a href="#none">Help</a></li>
+                </ul>
+            </div>
+            <div class="footer_menu2">
+                <ul>
+                    <li><a href="#none">Contact</a></li>
+                    <li><a href="#none">Location</a></li>
+                    <li><a href="sub_artist.html">About</a></li>
+                    <li><a href="sub_event.html">Event</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul>
+                    <li class="address">
+                        <span>
+                            Address:
+                        </span>
+                        <p>
+                            905, Deogyeon-daero, <br>
+                            Paldal-gu, Suwon-si, <br>
+                            Gyeonggi-do, <br>
+                            Republic of Korea
+                        </p>
+                    </li>
+                    <li class="phone">
+                        <span>
+                            Phone:
+                        </span>
+                        <p>
+                            (+82)10 1234 5678
+                        </p>
+                    </li>
+                    <li class="email">
+                        <span>
+                            Email:
+                        </span>
+                        <p>
+                            watermelon@naver.com
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_mail">
+                <p>
+                    Sign up for our newsletter
+                </p>
+                <form class="footer_ch">
+                    <input type="text" placeholder="Your E-mail..." name="submit" class="submit">
+                    <button type="button" class="fa-regular fa-paper-plane"></button>
+                </form>
+            </div>
+            <div class="footer_line">
+                <hr>
+            </div>
+            <div class="footer_last">
+                <div class="last_text">
+                    <p>
+                        Copyright ©2024 All rights reserved | made by Watermelon
+                    </p>
+                </div>
+                <div class="last_icon">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-line"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MADE TOMMY';
+    src: url(/fonts/MADE_TOMMY_Black.otf) format('opentype');
+}
+@font-face {
+    font-family: 'MADE TOMMY Outline';
+    src: url(/fonts/MADE_TOMMY_Black_Outline.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--size-xxs);
+}
+
+/* 변수 선언 */
+
+html {
+    font-size: 4px;
+    word-break: keep-all;
+}
+
+:root {
+    /* Color */
+    --black: #333333;
+    --white: #ffffff;
+    --point: #7afafa;
+
+    /* Font-Family */
+    --Pretendard: 'Pretendard-Regular';
+    --Madetommy: 'MADE TOMMY';
+    --MadetommyOut: 'MADE TOMMY Outline';
+
+    /* Font-Size */
+    --size-xxs: 3rem; /*12px*/
+    --size-xs: 4rem; /*16px*/
+    --size-s: 4.5rem; /*18px*/
+    --size-m: 6rem; /*24px*/
+    --size-l: 7rem; /*28px*/
+
+}
