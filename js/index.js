@@ -342,3 +342,38 @@ window.onload = function () {
     roller.classList.add('original');
     clone.classList.add('clone');
 }
+
+$(window).resize(function(){
+    if (window.innerWidth < 770) {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1(white).png");
+    } else {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1.png");
+    }
+});
+
+$(document).ready(function(){
+    let windowWidth = $(window).width();
+    if (windowWidth < 770) {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1(white).png");
+    } else {
+        $(".poster__tit1>img").attr("src","./img/index_img/1-1.png");
+    }
+})
+
+
+$(window).scroll(function(){
+    var
+    h_1 = $(document).scrollTop();
+    offset_1 = $("#leftWrap_0").offset().top;
+    offset_2 = $("#dyBackground").offset().top;
+
+    if(h_1 > offset_1 && h_1 < offset_2) {
+        $(".small>.logo>a>img").attr("src","img/logo(black_03).png");
+        // $("#hamburger .line").css("background-color","#000");
+        // $("#hamburger.is-active .line").css("background-color","#000");
+    } else {
+        $(".small>.logo>a>img").attr("src","img/logo(white_03).png");
+        // $("#hamburger .line").css("background-color","var(--white)");
+        // $("#hamburger.is-active .line").css("background-color","#000");
+    };
+});

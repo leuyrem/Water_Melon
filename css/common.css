@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/*Montserrat - 영문 main*/
-/* font-family: 'Montserrat', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 /* 햄버거 아이콘 css */
 #hamburger {
@@ -95,7 +91,7 @@ nav ul li .sub li a:hover {
 
 @media (max-width: 769px) {
     * {
-        font-family: 'Pretendard-Regular';
+        font-family: var(--Pretendard);
         font-weight: 400;
         font-size: var(--size-s);
     }
@@ -114,7 +110,6 @@ nav ul li .sub li a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Montserrat';
     }
 
     .full_n {
@@ -357,7 +352,7 @@ nav ul li .sub li a:hover {
 
 @media (min-width: 770px) and (max-width: 1199px) {
     * {
-        font-family: 'Pretendard-Regular';
+        font-family: var(--Pretendard);
         font-weight: 400;
         font-size: var(--size-s);
     }
@@ -376,7 +371,6 @@ nav ul li .sub li a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Montserrat';
     }
 
     .full_n {
@@ -620,7 +614,7 @@ nav ul li .sub li a:hover {
 
 @media (min-width: 1200px) {
     * {
-        font-family: 'Pretendard-Regular';
+        font-family: var(--Pretendard);
         font-weight: 400;
         font-size: var(--size-s);
     }
@@ -639,7 +633,6 @@ nav ul li .sub li a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Montserrat',;
     }
 
     .full_n {
@@ -649,7 +642,6 @@ nav ul li .sub li a:hover {
     nav ul {
         width: 62.5%;
         height: auto;
-        font-family: 'Montserrat';
         display: none;
     }
 

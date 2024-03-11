@@ -18,26 +18,25 @@ $(function(){
 });
 
 $(document).ready(function(){
-    $(".small .logo>img").attr("src","img/logo(black_03).png");
-});
+    $(".small .logo>a>img").attr("src","img/logo(black_03).png");
+    $("#hamburger .line").css("background-color","#000");
+})
 
-$(function(){
-    $(window).scroll(function(){
-        let h = $(document).scrollTop();
-        if(h > 130) {
-            $("#hamburger>.line").css("background-color","var(--white)");
-        } else {
-            $("#hamburger>.line").css("background-color","black");
-        }
-    });
-    $(window).scroll(function(){
-        let height = $(document).scrollTop();
-        if(height > 900 && height < 1900) {
-            $(".logo>a>img").attr("src","img/logo(white_03).png");
-        } else {
-            $(".logo>a>img").attr("src","img/logo(black_03).png");
-        }
-    });
+$(window).scroll(function(){
+    var
+    h_1 = $(document).scrollTop();
+    offset_1 = $("#backgruondWrap").offset().top;
+    offset_2 = $("#footer_box").offset().top;
+
+    if(h_1 > offset_1 && h_1 < offset_2) {
+        $(".small>.logo>a>img").attr("src","img/logo(black_03).png");
+        $("#hamburger .line").css("background-color","var(--white)");
+        // $("#hamburger.is-active .line").css("background-color","#000");
+    } else {
+        $(".small>.logo>a>img").attr("src","img/logo(white_03).png");
+        $("#hamburger .line").css("background-color","#000");
+        // $("#hamburger.is-active .line").css("background-color","#000");
+    };
 });
 
 // 배경 그라데이션 색, 앨범에 따라 변경

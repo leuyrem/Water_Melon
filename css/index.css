@@ -58,7 +58,7 @@
 .poster__tit1  {
     position: absolute;
     top: 50%;
-    left: 13%;
+    left: 9%;
     transform: translateY(-50%);
     width: 250px;
     height: 150px;
@@ -73,22 +73,24 @@
     color: var(--black);
     font-size: var(--size-s);
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 25px;
     cursor: pointer;
     width: 160px;
 }
 
 .sub__select:hover {
     background-color: var(--point);
+    color: #000;
+    border: 1px solid #000;
 }
 
 .poster__tit2 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vw;
-    height: 150px;
+    height: 120px;
 }
 .poster__tit2 img {
     width: 100%;
@@ -96,7 +98,7 @@
 
 .poster2__date {
     position: absolute;
-    width: 250px;
+    width: 200px;
     height: 30px;
     font-size: 5rem;
     color: #000;
@@ -107,11 +109,11 @@
 
 .poster2__place {
     position: relative;
-    width: 160px;
+    width: 120px;
     height: 30px;
     font-size: 5rem;
     color: #000;
-    bottom: -10%;
+    top: 0%;
     left: 85%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -122,18 +124,17 @@
     color: var(--black);
     font-size: var(--size-s);
     padding: 15px;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 20px;
     cursor: pointer;
     width: 160px;
 }
 
 .poster__tit3 {
     position: absolute;
-    width: 80vw;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80vw;
 }
 
 .poster__tit3 img {
@@ -145,9 +146,10 @@
     color: #fff;
     font-size: var(--size-s);
     padding: 15px 50px;
-    float: right;
-    margin-bottom: 10px;
+    float: left;
+    margin-top: 20px;
     cursor: pointer;
+    width: 160px;
 }
 
 .bottom__line__right1 {
@@ -518,6 +520,7 @@ button {
     font-size: 100px;
     line-height: 100px;
     font-family: var(--Madetommy);
+    font-weight: bold;
     opacity: 1;
     color: rgba(90, 192, 192, 0.2);
 }
@@ -741,7 +744,7 @@ button {
 }
 
 #artistSlider .rollingList ul li:nth-child(12) {
-    background-image: url(../img/index_img/img/day6.jpg);
+    background-image: url(../img/index_img/day6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -972,10 +975,12 @@ button {
 
     .sub__select:hover {
         background-color: var(--point);
-        border: none;
+        color: #000;
+        border: 1px solid #000;
     }
 
     .poster__tit2 {
+        top: 50%;
         width: 80vw;
     }
 
@@ -984,7 +989,7 @@ button {
         height: 30px;
         font-size: 5rem;
         color: #000;
-        top: -10%;
+        top: 15%;
         left: 1%;
         transform: translateY(-50%);
     }
@@ -992,9 +997,9 @@ button {
     .poster2__place {
         width: 160px;
         height: 30px;
-        font-size: 5rem;
+        font-size: 4.5rem;
         color: #000;
-        bottom: -10%;
+        top: 15%;
         left: 85%;
         transform: translate(-50%,-50%);
     }
@@ -1005,16 +1010,13 @@ button {
         font-size: var(--size-s);
         padding: 15px;
         margin-top: 15px;
-        margin-left: 20px;
         cursor: pointer;
         width: 160px;
     }
     
     .poster__tit3 {
         width: 80vw;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 55%;
     }
     .poster__tit3 img {
         width: 100%;
@@ -1025,7 +1027,7 @@ button {
         color: #fff;
         font-size: var(--size-s);
         padding: 15px 50px;
-        margin-bottom: 10px;
+        margin-top: 5px;
     }
 
     
@@ -1226,7 +1228,8 @@ button {
     }
     .sub__select:hover {
         background-color: var(--point);
-        border: none;
+        color: #000;
+        border: 1px solid #000;
     }
 
     .title__btn1 {
@@ -1239,7 +1242,7 @@ button {
 @media (min-width: 1000px) and (max-width:1199px) {
 
     .poster__tit1  {
-        width: 250px;
+        width: 270px;
     }
     .title__btn1 {
         border: #000 1px solid;
@@ -1254,10 +1257,12 @@ button {
 
     .sub__select:hover {
         background-color: var(--point);
-        border: none;
+        color: #000;
+        border: 1px solid #000;
     }
 
     .poster__tit2 {
+        top: 40%;
         width: 80vw;
     }
 
@@ -1266,7 +1271,7 @@ button {
         height: 30px;
         font-size: 5.5rem;
         color: #000;
-        top: -10%;
+        top: 15%;
         left: 1%;
         transform: translateY(-50%);
     }
@@ -1276,7 +1281,7 @@ button {
         height: 30px;
         font-size: 5.5rem;
         color: #000;
-        bottom: -10%;
+        top: 15%;
         left: 85%;
         transform: translate(-50%,-50%);
     }
@@ -1287,14 +1292,13 @@ button {
         font-size: var(--size-s);
         padding: 15px;
         margin-top: 15px;
-        margin-left: 20px;
         cursor: pointer;
         width: 160px;
     }
     
     .poster__tit3 {
         width: 80vw;
-        top: 40%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -1307,7 +1311,7 @@ button {
         color: #fff;
         font-size: var(--size-s);
         padding: 15px 50px;
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     /* 전종호 */
@@ -1499,7 +1503,8 @@ button {
 
     .sub__select:hover {
         background-color: var(--point);
-        border: none;
+        color: #000;
+        border: 1px solid #000;
     }
 
     .poster__tit2 {
@@ -1509,21 +1514,22 @@ button {
     .poster2__date {
         width: 250px;
         height: 30px;
+        top: 5%;
         font-size: 6rem;
     }
 
     .poster2__place {
         width: 300px;
         font-size: 6rem;
-        bottom: -10%;
+        top: 5%;
         left: 90%;
         transform: translate(-50%,-50%);
     }
     
     .poster__tit3 {
-        width: 950px;
+        width: 1000px;
         top: 40%;
-        left: 40%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .poster__tit3 img {
@@ -1535,7 +1541,6 @@ button {
         color: #fff;
         font-size: var(--size-s);
         padding: 15px 50px;
-        margin-bottom: 10px;
     }
 
     /* 전종호 */

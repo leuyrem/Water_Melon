@@ -42,13 +42,13 @@ body {
 
 #box2 p {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     text-align: center;
 }
 
 #box2 h2 {
     color: white;
-    font-size: 10rem;
+    font-size: 6.5vw;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .btn1 {
-    padding: 5px;
+    padding: 10px;
     background-color: var(--point);
     border: none;
     border-radius: 5px;
@@ -76,18 +76,12 @@ body {
     font-size: 3rem;
     color: black;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .btn1:hover {
     opacity: 0.8;
 }
-
-.btn1 a {
-    color: black;
-    font-size: 3rem;
-}
-
-
 
 #record {
     width: 100%;
@@ -152,7 +146,7 @@ body {
     color: white;
 }
 
-.title h1 {
+.title h2 {
     font-size: 13rem;
     padding: 10% 0;
     text-align: center;
@@ -243,26 +237,21 @@ body {
 }
 
 .btn1 {
-    padding: 10px 40px;
+    padding: 15px 40px;
     background-color: var(--point);
     border: none;
     border-radius: 5px;
     flex-grow: 1;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 4rem;
     color: black;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .btn1:hover {
     opacity: 0.8;
 }
-
-.btn1 a {
-    color: black;
-    font-size: 4rem;
-}
-
 
 
 #record {
@@ -328,7 +317,7 @@ body {
     color: white;
 }
 
-.title h1 {
+.title h2 {
     font-size: 17rem;
     padding: 10% 0;
     text-align: center;
@@ -416,17 +405,14 @@ body {
 }
 
 .btn1 {
-    padding: 10px 50px;
+    padding: 15px 50px;
     background-color: var(--point);
     border: none;
     border-radius: 5px;
     flex-grow: 1;
-    font-weight: bold;  
-    letter-spacing: 4px
-}
-
-.btn1 a {
-    color: black;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #000;
     font-size: 4rem;
 }
 
@@ -499,7 +485,7 @@ body {
     color: white;
 }
 
-.title h1 {
+.title h2 {
     font-size: 70px;
 }
 

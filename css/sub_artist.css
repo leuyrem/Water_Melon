@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'MADE TOMMY';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/MADE_TOMMY_Regular.otf) format('opentype');
+}
+
 @media (min-width: 1600px) {
 
 
@@ -57,7 +64,7 @@
 
 
 .topbar li a {
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-size: var(--size-xs);
     color: var(--white);
 
@@ -106,7 +113,7 @@
 
 .debut p {
     font-size: 7rem;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-weight: bold;
 }
 
@@ -569,7 +576,7 @@
     font-weight: bold;
     font-size: 12rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: var(--Madetommy);
 }
 
 .track {
@@ -578,7 +585,7 @@
     font-weight: bold;
     font-size: 12rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     display: none;
 }
 
@@ -626,7 +633,7 @@
 .trackblock {
     width: 400px;
     height: 100%;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     background-color: #fff;
 }
 
@@ -865,7 +872,7 @@
 }
 
 .topbar li a {
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-size: 3rem;
     color: var(--white);
 
@@ -915,7 +922,7 @@
 
 .debut p {
     font-size: 7rem;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-weight: bold;
 }
 
@@ -1377,7 +1384,7 @@
     font-weight: bold;
     font-size: 10rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: var(--Madetommy);
 }
 
 .track {
@@ -1386,7 +1393,7 @@
     font-weight: bold;
     font-size: 10rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     display: none;
 }
 
@@ -1433,7 +1440,7 @@
 .trackblock {
     width: 350px;
     height: 100%;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     background-color: #fff;
 }
 
@@ -1666,7 +1673,7 @@
 }
 
 .topbar li a {
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-size: 3rem;
     color: var(--white);
 
@@ -1716,7 +1723,7 @@
 
 .debut p {
     font-size: 6rem;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-weight: bold;
 }
 
@@ -2180,7 +2187,7 @@
     font-weight: bold;
     font-size: 7rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: var(--Madetommy);
 }
 
 .track {
@@ -2189,7 +2196,7 @@
     font-weight: bold;
     font-size: 7rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     display: none;
 }
 
@@ -2236,7 +2243,7 @@
 .trackblock {
     width: 250px;
     height: 100%;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     background-color: #fff;
 }
 
@@ -2471,7 +2478,7 @@
 }
 
 .topbar li a {
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-size: 3rem;
     color: var(--white);
 
@@ -2520,7 +2527,7 @@
 
 .debut p {
     font-size: 4rem;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-weight: bold;
 }
 
@@ -2976,7 +2983,7 @@
     font-weight: bold;
     font-size: 7rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: var(--Madetommy);
 }
 
 .track {
@@ -2985,7 +2992,7 @@
     font-weight: bold;
     font-size: 6rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     display: none;
 }
 
@@ -3033,7 +3040,7 @@
 .trackblock {
     width: 250px;
     height: 100%;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     background-color: #fff;
 }
 
@@ -3268,7 +3275,7 @@
 }
 
 .topbar li a {
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-size: 3rem;
     color: var(--white);
 
@@ -3317,7 +3324,7 @@
 
 .debut p {
     font-size: 4rem;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     font-weight: bold;
 }
 
@@ -3773,7 +3780,7 @@
     font-weight: bold;
     font-size: 7rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: var(--Madetommy);
 }
 
 .track {
@@ -3782,7 +3789,7 @@
     font-weight: bold;
     font-size: 6rem;
     text-align: center;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     display: none;
 }
 
@@ -3830,7 +3837,7 @@
 .trackblock {
     width: 250px;
     height: 100%;
-    font-family: 'MADE TOMMY Regular_PERSONAL USE';
+    font-family: 'MADE TOMMY';
     background-color: #fff;
 }
 

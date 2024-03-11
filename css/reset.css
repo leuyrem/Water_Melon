@@ -6,13 +6,14 @@
     font-weight: 400;
     font-style: normal;
 }
-@font-face {
-    font-family: 'MADE TOMMY';
-    src: url(/fonts/MADE_TOMMY_Black.otf) format('opentype');
-}
+
 @font-face {
     font-family: 'MADE TOMMY Outline';
-    src: url(/fonts/MADE_TOMMY_Black_Outline.otf) format('opentype');
+    src: url(../fonts/MADE_TOMMY_Black_Outline.otf) format('opentype');
+}
+@font-face {
+    font-family: 'MADE TOMMY';
+    src: url(../fonts/MADE_TOMMY_Black.otf) format('opentype');
 }
 
 * {

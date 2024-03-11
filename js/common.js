@@ -10,11 +10,4 @@ $(document).ready(function () {
 
       $('#menu_wrap').toggleClass('full_n');
   });
-  $(window).resize(function(){
-    if (window.innerWidth < 770) {
-        $(".logo>a>img").attr("src","img/logo(white_03).png");
-    } else {
-        $(".logo>a>img").attr("src","img/logo(black_03).png");
-    }
-  })
 });
