@@ -56,5 +56,8 @@ html {
     --size-s: 4.5rem; /*18px*/
     --size-m: 6rem; /*24px*/
     --size-l: 7rem; /*28px*/
+}
 
+body {
+    overflow-x: hidden;
 }
